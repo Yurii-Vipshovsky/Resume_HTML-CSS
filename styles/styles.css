@@ -2,4 +2,74 @@ main {
     font-family: "Montserrat", sans-serif;
     display: flex;
     flex-direction: row-reverse;
+    background-color: #E5E5E5;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-content{
+    background-color: white;
+}
+
+aside {
+    padding-top:40px;
+    background-color: #1e2939;
+    width: 370px;
+}
+
+.myPhoto{
+    width: 370px;
+    margin-bottom: 50px;
+}
+
+aside h3{
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.userInfo{
+    margin-left: 40px;
+}
+
+.contact-type{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.contact-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 5px;
+    color: #FFFFFF;
+
+    opacity: 0.5;
+}
+
+.contacts{
+    margin-bottom: 50px;
+}
+
+.userInfo ul{
+    padding: 0;
+    margin-left: 17px;
+}
+
+.userInfo li{
+    color: #FB6D3A;
+}
+.userInfo li span{
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
 }
